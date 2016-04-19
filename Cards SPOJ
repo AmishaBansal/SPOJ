@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{   long long int x;long long int o;
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{
+		scanf("%lld",&x);
+		o=(3* x*x+x)/2;
+		o=o % 1000007;
+		printf("%lld\n",o);
+	}
+	return 0;
+}
